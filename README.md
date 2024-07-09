@@ -13,9 +13,11 @@ Please write to e-mail: brainpower22@protonmail.com
 
 ## Usage  
 ```
-On first launch:  
-Download yousicianBD.db from https://github.com/brainpower22/yousician-client-server-db
-Copy yousicianBD.db to %PATH_TO_YOU_SERVER%\Yousician.srv\src\database\  
+Before first launch:  
+RENAME
+D:\yousician-standalone\Yousician.srv\src\database\yousicianBD.db.orig
+TO
+D:\yousician-standalone\Yousician.srv\src\database\yousicianBD.db
 ```
 Start the server - run server_start.bat  
 Start the application - run yousician.bat  
@@ -57,3 +59,33 @@ APP:
 - fix load opcache ext
 - remove browscap
 - add sillabus switch instrument route and method
+
+
+##############################################################################
+Вопросы, пожелания и предложения пишите на e-mail: brainpower22@protonmail.com
+
+Использование:
+
+!!!------------------Только при первом запуске сервера------------------!!!
+Скачайте yousicianBD.db по ссылке: [Redacted]
+Скопируйте yousicianBD.db в %PATH_TO_YOU_SERVER%\Yousician.srv\src\database\
+!!!------------------Только при первом запуске сервера------------------!!!  
+
+Старт сервера - запустите server_start.bat
+Запуск приложения - запустите yousician.bat
+
+Для входа используйте предустановленную учетную запись
+(или зарегистрируйтесь в приложении):
+Логин: fan@yousician.com
+Пароль: 12345
+
+Чтобы остановить сервер и закрыть все связанные с ним процессы, используйте server_shutdown.bat
+
+Server:
+nginx version: nginx/1.24.0
+PHP 8.1.2 (cgi-fcgi)
+SQLite 3.30.1
+ffmpeg version 7.0-essentials
+
+Client:
+Yousician WINDOWS_2.56.0-5adb577f5a-50254(Mod)

@@ -1,3 +1,2 @@
-## Usage  
-Download yousicianBD.db from yousician-client-server-db  
-Copy yousicianBD.db to this folder
+## Использование  
+Скопируйте файл yousicianBD.db в %PATH_TO_YOU_SERVER%\Yousician.srv\src\database\
